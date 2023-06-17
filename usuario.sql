@@ -4,7 +4,7 @@
 --
 -- Servidor: 127.0.0.1
 -- Tiempo de generación: 23-05-2023 a las 21:38:36
--- Versión del servidor: 10.4.28-MariaDB
+-- Versión del servidor: 10.4.28-IM
 -- Versión de PHP: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -39,9 +39,9 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`ID`, `NOMBRE`, `APELLIDO`, `EMAIL`) VALUES
-(1, 'LINK', 'HYRULE', 'MASTERSWORD@SQL.COM'),
-(2, 'ZELDA', 'PRINCESA', 'TRIFORCE@SQL.COM'),
-(3, 'GANON', 'MALDAD', 'GANONDORF@SQL.COM');
+(1, 'AKALI', 'TOP', 'AKALI@LOL.COM'),
+(2, 'JINX', 'ADC', 'JINX@LOL.COM'),
+(3, 'AHRI', 'MID', 'AHRI@LOL.COM');
 
 --
 -- Índices para tablas volcadas
